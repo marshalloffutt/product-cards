@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
+    font-family: 'Ubuntu', sans-serif;
+    color: #212121;
 }
 
 .cards-container {
@@ -11,14 +11,14 @@ body {
 }
 
 .card {
-    border: 1px solid lightblue;
+    border: 1px solid #BDBDBD;
     width: 30%;
     margin: 10px;
     box-shadow: 0 20px 20px 0 rgba(102, 92, 92, 0.55) 
 }
 
 .card-header {
-    border-bottom: 1px solid lightblue;
+    border-bottom: 1px solid #BDBDBD;
     margin: -10px 5px 0 5px;
     height: 350px;
 }
@@ -33,7 +33,6 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
-
 
 .card-header > h2 {
        text-align: center;
@@ -55,8 +54,8 @@ li {
 }
 
 .card-header > h3 {
-    background-color: darkgray;
-    color: yellow;
+    background-color: rgb(141, 152, 214);
+    color: #FFFFFF;
     font-size: 75%;
     padding: 2%;
     margin-left: -2%;
@@ -74,7 +73,7 @@ li {
 }
 
 h2 {
-    border-bottom: 1px solid lightblue;
+    border-bottom: 1px solid #BDBDBD;
     margin-left: -2%;
     margin-right: -2%;
     padding-bottom: 8px;
@@ -89,4 +88,10 @@ h4 {
 ul {
     margin-top: -8%;
     margin-left: -5%;
+}
+
+.sold-out {
+    position: absolute;
+    padding-left: 5%;
+    z-index: 4;
 }
