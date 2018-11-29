@@ -1,6 +1,6 @@
 # Product Cards
 
-This project is an attempt to mock some product cards, and pretend to sell rocks to people.
+This project is an attempt to mock some product cards, and pretend to sell rocks to people. The purpose was to test our ability to mock an existing template using only vanilla JavaScript and CSS.
 
 ## Screenshot
 ![main screenshot](./screenshots/rocks.png)
